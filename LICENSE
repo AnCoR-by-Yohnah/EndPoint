@@ -1,3 +1,33 @@
+### Additional Clause – Restriction on Integration into Commercial Products
+
+The software covered by this license (hereinafter referred to as "The Software") is licensed under the **GNU Affero General Public License version 3.0 (AGPLv3)** (see below), with the following **additional restriction**:
+
+**Restriction on Integration into Commercial Products:**
+
+1. **Prohibition on Integration into Commercial Products without Explicit Consent**:
+   - **Integration, incorporation, or use** of the Software as part of **any commercial product, service, platform, system, or solution** is **not allowed** without **prior, explicit, and written consent** from the original author of this Software (Yohnah, copyright 2025).
+   - This includes, but is not limited to:
+     - **Using the Software as a backend** (for example, for handling data processing, storage, or serving requests).
+     - **Embedding the Software** into another commercial product, service, or platform.
+     - **Utilizing the Software as a component** or **dependency** in any commercial offering.
+     - **Offering the Software as part of a commercial service** or product, such as SaaS, cloud infrastructure, or any paid subscription service.
+
+2. **Exceptions**:
+   - This restriction **does not apply** to the integration of the Software into **non-commercial projects**. A non-commercial project is defined as any software, service, or platform that is not intended to generate direct income or profit, such as **personal projects**, **academic projects**, or **open-source projects**.
+   - In non-commercial projects, the Software may be used freely in its entirety or modified, as long as the **original authorship** is properly and clearly acknowledged, and the terms of the **AGPLv3** are adhered to.
+
+3. **Authorship and Acknowledgment**:
+   - Any use of the Software, whether in a commercial or non-commercial environment, must include an **appropriate mention of the original author** (Yohnah) and a **link to the license**. In commercial projects, this acknowledgment must be clearly visible in a credits section or any other prominent place where the use of the Software is described.
+   - In the case of modified versions of the Software, the **acknowledgment of authorship** must clearly state that modifications have been made and that the Software has been altered from its original version.
+
+4. **Exclusions**:
+   - If the Software is used internally within an organization, without distributing it or incorporating it into a commercial product, it does not violate this restriction as long as it is **not commercialized or distributed outside that organization**.
+
+5. **Consequences for Violation**:
+   - If the Software is integrated into a commercial product without consent, the author reserves the right to take **legal action** to enforce this restriction, including filing copyright infringement claims and enforcing the terms of the license.
+
+
+-----------------------------------------------------------------------
                     GNU AFFERO GENERAL PUBLIC LICENSE
                        Version 3, 19 November 2007
 
