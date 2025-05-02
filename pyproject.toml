@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+keywords = ["secrets", "vault", "security", "python"]
+name = "ancor-endpoint"
+dynamic = ["version"]
+authors = [
+  { name = "Yohnah", email = "yohnah@gmail.com" },
+]
+description = "AnCord Endpoint by Yohnah"
+readme = "README.md"  # Archivo README para la descripción corta
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Intended Audience :: System Administrators",
+    "Topic :: Security",
+    "Topic :: Utilities"
+]
+
+dependencies = []
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]  # Localización del código fuente
+
+[tool.setuptools.dynamic]
+version = {attr = "ancor_endpoint.__version__"}
+
+[tool.long_description]
+long-description = "Detailed description of the project."
+long-description-content-type = "text/markdown"
+
+#[project.scripts]
+#secrets = "yohnah_secrets.cli:main"  # Si tienes una CLI, puedes habilitarla
+
+[project.urls]
+"Homepage" = "https://github.com/AnCoR-by-Yohnah/EndPoint"
+"Bug Tracker" = "https://github.com/AnCoR-by-Yohnah/EndPoint/issues"
+"Documentation" = "https://github.com/AnCoR-by-Yohnah/EndPoint/wiki"
+"Repository" = "https://github.com/AnCoR-by-Yohnah/EndPoint"
